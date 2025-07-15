@@ -47,5 +47,5 @@ bootstrap_results = estimate_transitions(
 
 print(bootstrap_results.head())
 ```
-Note: The `log_transform=True` is providing anamolous results. Likewise, `pline_round1_col=None` requires poveety line or cut-off variable to be named `pline_7`. These two issues will be corrected in the revised version.
+Note: The `log_transform=True` is providing anamolous results. Likewise, `pline_round1_col=None` requires poverty line or cut-off variable to be named `pline_7`. These two issues will be corrected in the revised version.
 
