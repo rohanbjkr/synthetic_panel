@@ -30,8 +30,8 @@ from synthetic_panel import estimate_transitions
 bootstrap_results = estimate_transitions(
     df_round1=df1,
     df_round2=df2,
-    x_cols=['x1', 'x2', 'x31', 'x32', 'age33'],    # predictors in regression
-    cohort_cols=['x1', 'x2','x3'],          # used to form cohort IDs
+    x_cols=['x1', 'x2', 'x31', 'x32', 'x33'],    # predictors in regression (x3 had four categories so used only three to overcome dummy variable trap.)
+    cohort_cols=['x1','x2','x3'],          # used to form cohort IDs
     dep_var_round1='depvar1',                                   # dependent var in round1
     dep_var_round2='depvar2',                                    # dependent var in round2
     pline_round1_col=None,                                    # will auto-calc using df2010['pline_7']
