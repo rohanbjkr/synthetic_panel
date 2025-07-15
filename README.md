@@ -1,12 +1,28 @@
 # synthetic_panel
 
+# synthetic_panel
+
 A Python package to estimate poverty transition shares using synthetic panel methodology with bootstrapping.
+
+---
+
+## Source / Reference
+
+This package is adapted from the methodology described in:
+
+**Dang, Hai-Anh H., and Peter F. Lanjouw.**  
+*Measuring Poverty Dynamics with Synthetic Panels Based on Repeated Cross Sections.*  
+Oxford Bulletin of Economics and Statistics (Wiley Online Library), 2023.  
+[https://onlinelibrary.wiley.com/doi/10.1111/obes.12539](https://onlinelibrary.wiley.com/doi/10.1111/obes.12539)
 
 ## Installation
 
 ```bash
 pip install --index-url https://test.pypi.org/simple/ synthetic_panel
 ```
+
+## Usage
+
 ```bash
 from synthetic_panel import estimate_transitions
 ```
