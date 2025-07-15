@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Rohan Byanjankar',
     author_email='rohanbjkr@gmail.com',
-    url='https://github.com/yourusername/synthetic_panel',
+    url='https://github.com/rohanbjkr/synthetic_panel/',
     packages=find_packages(),
     install_requires=[
         'numpy',
