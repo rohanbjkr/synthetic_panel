@@ -1,6 +1,6 @@
 # Constructing Synthetic Panels
 
-A Python package to estimate poverty transition shares using synthetic panel methodology with bootstrapping. This package is in the development phase. 
+A Python package to estimate poverty transition shares using synthetic panel methodology with bootstrapping. This package is in the development phase and currently implements two rounds of surveys. 
 
 ---
 
