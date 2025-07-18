@@ -45,6 +45,6 @@ https://doi.org/10.1111/obes.12539
 
 This software package:
 ```
-Byanjankar, Rohan. (2025). synthetic_panel: A Python package to estimate poverty transition shares using synthetic panel methodology with bootstrapping (Version 0.1.3). Available at: [https://pypi.org/project/synthetic-panel/](https://pypi.org/project/synthetic-panel/)
+Byanjankar, Rohan. (2025). synthetic_panel: A Python package to estimate poverty transition shares using synthetic panel methodology with bootstrapping (Version 0.1.3). Available at: https://pypi.org/project/synthetic-panel/
 ```
 
