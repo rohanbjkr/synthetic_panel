@@ -16,7 +16,7 @@ Oxford Bulletin of Economics and Statistics (Wiley Online Library), 2023.
 ## Installation
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ synthetic_panel
+pip install synthetic_panel
 ```
 
 ## Usage
@@ -24,26 +24,5 @@ pip install --index-url https://test.pypi.org/simple/ synthetic_panel
 ```bash
 from synthetic_panel import estimate_transitions
 ```
-```bash
-bootstrap_results = estimate_transitions(
-    df_round1=df1,
-    df_round2=df2,
-    x_cols=['x1', 'x2', 'x31', 'x32', 'x33'],    # predictors in regression (x3 had four categories so used only three to overcome dummy variable trap.)
-    cohort_cols=['x1','x2','x3'],          # used to form cohort IDs
-    dep_var_round1='depvar1',                                   # dependent var in round1
-    dep_var_round2='depvar2',                                    # dependent var in round2
-    pline_round1_col=None,                                    # will auto-calc using df2010['pline_7']
-    pline_round2_col='cutoffline',                                 # poverty line col in df2021
-    cohort_col='cohort',                                      # cohort ID column name
-    auto_create_cohort=True,                                  # create cohort from cohort_cols
-    log_transform=False,                                       # log-transform dependent vars
-    n_bootstrap=2,                                          # number of bootstrap reps
-    use_multiprocessing=True,                                 # use parallel processing
-    output_excel_filename="bootstrap_poverty_transitions.xlsx",  # save Excel file in current dir
-    seed=42                                                   # random seed for reproducibility
-)
-
-print(bootstrap_results.head())
-```
-Note: The `log_transform=True` is providing anamolous results. Likewise, `pline_round1_col=None` requires poverty line or cut-off variable to be named `pline_7`. These two issues will be corrected in the revised version.
+[Working example](https://gist.github.com/rohanbjkr/887bd6a44b6e6e20aad5abcef813b84a)
 
