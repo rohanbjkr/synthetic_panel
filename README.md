@@ -11,7 +11,7 @@ By eliminating the need for manual coding and data restructuring, the package ma
 All errors are my own.
 ---
 
-## Source / Reference
+## Sources / References
 
 This package is adapted from the methodology described in:
 
@@ -33,7 +33,7 @@ from synthetic_panel import estimate_transitions
 ```
 [Working example](https://gist.github.com/rohanbjkr/887bd6a44b6e6e20aad5abcef813b84a)
 
-## Recommended Citation
+## Recommended Citations
 
 If you use this package in your research or publication, please cite:
 
