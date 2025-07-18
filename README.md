@@ -7,8 +7,8 @@ This package is designed to help researchers and academicians estimate transitio
 The package simplifies the entire workflow: it automatically constructs synthetic cohorts based on user-specified characteristics, estimates transition shares across states (e.g., from poor to non-poor), and applies bootstrapping to generate confidence intervals for robust inference. It also supports the inclusion of regression-based methods, fixed effects, and survey weights.
 
 By eliminating the need for manual coding and data restructuring, the package makes it easier to analyze poverty dynamics and other socioeconomic transitions using widely available data sources. It is well-suited for empirical research, policy analysis, and academic work focused on poverty, inequality, labor market mobility, and more.
-
 All errors are my own.
+
 ---
 
 ## Sources / References
